@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  haiming-python:
+    build: .
+    image: haiming-python:v1.0.0
+    container_name: haiming-python
+    restart: unless-stopped
